@@ -19,6 +19,14 @@
         </dependency>
 
 
+
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.3.30</version> <!-- or a compatible version -->
+        </dependency>
+
         <!-- Spring ORM pour l'intégration avec Hibernate -->
         <dependency>
             <groupId>org.springframework</groupId>

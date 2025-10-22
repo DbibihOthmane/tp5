@@ -14,7 +14,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages = {"com.example.dao", "com.example.entities", "com.example.metier"})
+@ComponentScan(basePackages = {"com.example"})
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
 public class HibernateConfig {
